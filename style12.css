@@ -1,0 +1,35 @@
+.main{
+    height: 60px;
+    width: 350px;
+background-color: #2e2e3a;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .search{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.main .search #s{
+margin-left: 15px;
+font-size: 15px;
+width: 100%;
+background-color: #2e2e3a;
+color: azure;
+outline: none;
+border: none;
+}
+
+.main .i{
+    margin-right: 10px;
+}
+.main .i i{
+    font-size: 20px;
+    color: azure;
+}
+.main .i i:hover~.main{
+        width: 500px;
+}
+
